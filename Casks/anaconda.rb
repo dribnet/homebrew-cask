@@ -12,7 +12,7 @@ cask 'anaconda' do
   installer script: {
                       executable: "Anaconda3-#{version}-MacOSX-x86_64.sh",
                       args:       ['-b', '-p', "#{HOMEBREW_PREFIX}/anaconda3"],
-                      sudo:       true,
+                      sudo:       false,
                     }
 
   uninstall delete: "#{HOMEBREW_PREFIX}/anaconda3"
