@@ -11,7 +11,7 @@ cask 'anaconda' do
 
   installer script: {
                       executable: "Anaconda3-#{version}-MacOSX-x86_64.sh",
-                      args:       ['-b', '-p', "#{HOMEBREW_PREFIX}/anaconda3"],
+                      args:       ['-b', '-f', '-p', "#{HOMEBREW_PREFIX}/anaconda3"],
                       sudo:       false,
                     }
 

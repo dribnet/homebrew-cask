@@ -1,5 +1,16 @@
 # Homebrew-Cask
 
+## IF YOU DONT WANT TO INSTALL ANACONDA AS SUDO
+
+```bash
+sudo mkdir /usr/local/anaconda3
+
+brew install https://raw.githubusercontent.com/dribnet/homebrew-cask/conda_nosudo/Casks/anaconda.rb
+sudo chmod 777 /usr/local/anaconda3
+(maybe there's an easier way?)
+
+----
+
 _“To install, drag this icon…” no more!_
 
 Homebrew-Cask extends [Homebrew](http://brew.sh) and brings its elegance, simplicity, and speed to the installation and management of GUI macOS applications such as Google Chrome and Adium.
