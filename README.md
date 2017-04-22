@@ -4,9 +4,10 @@
 
 ```bash
 sudo mkdir /usr/local/anaconda3
-
-brew install https://raw.githubusercontent.com/dribnet/homebrew-cask/conda_nosudo/Casks/anaconda.rb
 sudo chmod 777 /usr/local/anaconda3
+brew install https://raw.githubusercontent.com/dribnet/homebrew-cask/conda_nosudo/Casks/anaconda.rb
+```
+
 (maybe there's an easier way?)
 
 ----
